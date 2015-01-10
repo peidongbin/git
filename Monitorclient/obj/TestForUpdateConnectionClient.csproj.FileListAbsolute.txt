@@ -1,0 +1,24 @@
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\bin\Debug\TestForUpdateConnectionClient.exe
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\bin\Debug\TestForUpdateConnectionClient.pdb
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\obj\Debug\ResolveAssemblyReference.cache
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.Form1.resources
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.Properties.Resources.resources
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.csproj.GenerateResource.Cache
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.exe
+F:\liuhy\cqut\Projects\hanxin\Test\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.pdb
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.exe
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.pdb
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\bin\Debug\TestForUpdateConnectionClient.exe
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\bin\Debug\TestForUpdateConnectionClient.pdb
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\obj\Debug\ResolveAssemblyReference.cache
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.Form1.resources
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.Properties.Resources.resources
+D:\微云网盘\40348598\源码\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.exe
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.pdb
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\bin\Debug\TestForUpdateConnectionClient.exe
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\bin\Debug\TestForUpdateConnectionClient.pdb
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.Form1.resources
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\TestForUpdateConnectionClient\obj\Debug\TestForUpdateConnectionClient.csproj.GenerateResource.Cache

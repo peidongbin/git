@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8824CBC6-AFA0-4ACF-937F-33D8717EA10E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Monitorsever</RootNamespace>
+    <AssemblyName>Monitorsever</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Monitorsever.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>16361D82260E982AEACBA18FED016305F4C7D3A5</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Monitorsever_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="avcodec.cs" />
+    <Compile Include="avformat.cs" />
+    <Compile Include="avutil.cs" />
+    <Compile Include="buildlist.cs" />
+    <Compile Include="commonclass\Datacon.cs" />
+    <Compile Include="commonclass\DataOperate.cs" />
+    <Compile Include="Form_camsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_camsetting.Designer.cs">
+      <DependentUpon>Form_camsetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_main.Designer.cs">
+      <DependentUpon>Form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="iotc.cs" />
+    <Compile Include="monitorDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>monitorDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="server.cs" />
+    <Compile Include="test1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test1.Designer.cs">
+      <DependentUpon>test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userset_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userset_frm.Designer.cs">
+      <DependentUpon>userset_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="video.cs" />
+    <Compile Include="video\getvideo.cs" />
+    <Compile Include="serverset_frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serverset_frm.Designer.cs">
+      <DependentUpon>serverset_frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="livevideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="livevideo.Designer.cs">
+      <DependentUpon>livevideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="video_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="video_search.Designer.cs">
+      <DependentUpon>video_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vlc.cs" />
+    <EmbeddedResource Include="Form_camsetting.resx">
+      <DependentUpon>Form_camsetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_main.resx">
+      <DependentUpon>Form_main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="serverset_frm.resx">
+      <DependentUpon>serverset_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test1.resx">
+      <DependentUpon>test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userset_frm.resx">
+      <DependentUpon>userset_frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="livevideo.resx">
+      <DependentUpon>livevideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="video_search.resx">
+      <DependentUpon>video_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="monitorDataSet.xsc">
+      <DependentUpon>monitorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="monitorDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>monitorDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="monitorDataSet.xss">
+      <DependentUpon>monitorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Monitorsever_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="db\monitor.accdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>DataFile</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="db\monitor.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

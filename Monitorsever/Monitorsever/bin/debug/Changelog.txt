@@ -1,0 +1,28 @@
+Changes for the 2.1.0.0 beta 2 release (2009/06/29)
+
+[Addons]
+- TS/M2TS Extraction is now managed by EAC3to.
+- QuickTime compatibility for AVC streams containing B-Frames.
+- appleTV compliancy (not tested on such device though...).
+- Windows Seven support.
+
+[Improvements]
+- Better Internal Files detection.
+- Better AC3-in-MP4 files creation.
+- Better MKVExtract detection.
+- Few tunings in the NSIS script.
+
+[Updates]
+- MediaInfo library (0.7.17)
+- MP4Box (0.4.6-dev_20090629)
+- MKVExtract (2.9.5)
+- EAC3to (3.16)
+
+[Regression]
+- Disable temporarily the ASS/SSA Converter. Need to find a better algorithm...
+
+[Fixes]
+- Fix splitting command lines errors.
+- Fix Matroska tasks convertion.
+- Fix mkvtoolnix libs missing from the installer.
+- Several other fixes.
